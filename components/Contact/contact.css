@@ -1,0 +1,43 @@
+.contact-title{
+    color: #009DAE;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.contact-form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.send-message {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.send-button {
+    width: 50%;
+    background-color: #009DAE;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.map {
+    max-width: 100%;
+}
+
+@media  screen and (max-width: 480px)  {
+    .contact-title {
+        font-size: 36px;
+    }
+
+    .map {
+        margin-top: 15px;
+        
+    }
+}
+

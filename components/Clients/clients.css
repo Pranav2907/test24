@@ -1,0 +1,27 @@
+.clients-title {
+    color: #009DAE;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+@media  screen and (max-width: 480px) {
+    .clients-title {
+        font-size: 36px;
+    }
+
+    .evk {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .eams {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .igem {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

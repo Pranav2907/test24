@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header {
+    position: relative;
+}
+
+.header > img {
+      /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)); */
+    
+}
+
+.text-block {
+    position: absolute;
+    top: 20%;
+    margin-left: 120px;
+}
+
+  .headerTitle{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 54px;
+  }
+
+  .headerSubTitle{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .header-button {
+      width: 20%;
+      background-color: #009DAE;
+      border: none;
+      color: white;
+      font-size: 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 16px;
+      padding: 10px 20px;
+  }
+
+  .home-text {
+      font-family: Poppins;
+      font-weight: 500;
+      line-height: 1.6;
+  }
+
+  .why-desc {
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .why-vision {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  @media screen and (max-width: 768px) {
+    .headerTitle{
+      color: #FFFFFF;
+      font-family: Poppins;
+      font-size: 36px;
+    }
+
+    .text-block {
+      position: absolute;
+      top: 20%;
+      margin-left: 80px;
+  }
+  }
+
+  @media  screen and (max-width: 480px)  {
+
+    .text-block {
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    
+    .headerTitle {
+        
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 18px;
+      }
+
+      .headerSubTitle{
+        display: none;
+        color: #FFFFFF;
+        font-family: Poppins;
+      }
+
+      .header-button {
+        display: none;
+        width: 100%;
+        background-color: #009DAE;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 5%;
+    }
+
+    .home-text {
+        font-family: Poppins;
+        font-weight: 200;
+        line-height: 1.2;
+        text-align: right;
+        font-size: 16px;
+    }
+  }
+
+  .why-us {
+      color: #009DAE;
+      font-family: Poppins;
+      font-weight: bolder;
+      font-size: 36px;
+  }
+
+  .why-title{
+      color: #009DAE;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 44;
+  }
+
+  .why-vision {
+      border-radius: 16px;
+      /* box-shadow: 10px 10px 10px 10px lightsteelblue; */
+  }
+
+  .why-desc {
+      font-size: 22px;
+      margin-left: auto;
+  }
+
+  .mission {
+    margin-top: 20px;
+  }
+
+  .quality {
+    margin-top: 20px;
+  }
